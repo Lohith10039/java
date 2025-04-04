@@ -8,7 +8,7 @@ this.author_of_the_book = author_of_the_book;
 this.year_of_publications = year_of_publications;
 }
 public void display(){
-System.out.println("title_of_the_book="+title_of_the_book+'\n'+"author_of_the_book="+author_of_the_book+'\n'+"year_of_publications="+year_of_publications+'\n');
+System.out.println("title of the book="+title_of_the_book+'\n'+"author of the book="+author_of_the_book+'\n'+"year of publications="+year_of_publications+'\n');
 }
 public static void main(String[] args){
 book b1= new book("Iron Man","stan lee",1964);
